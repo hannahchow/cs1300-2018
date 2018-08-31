@@ -1,4 +1,79 @@
 
+body {
+	background-color: #cce3c7;
+}
+
+@font-face {
+    font-family: coppergothic;
+    src: url('Copperplate Gothic Regular.otf');
+}
+
+#logo {
+	width: 40%;
+	height: auto; 
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+}
+
+.linkbox {
+	width: 10%;
+	height: 30px;
+	border: 3px solid black;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: coppergothic;
+	font-size: 14px;
+	color: black;
+	text-align: center;
+	line-height: 30px;
+}
+
+
+#links {
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: center;
+}
+
+.linkbox a {
+	text-decoration: none;
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+.linkbox a:hover {
+	letter-spacing: 1.5px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+@media only screen and (max-width: 1200px) {
+    .linkbox {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .linkbox {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .linkbox {
+        display: none;
+    }
+}
+
+
+
 /*
 font-family: futura-pt, sans-serif;
 font-style: normal;
