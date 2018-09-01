@@ -14,11 +14,11 @@
   	<img id="logo" src="logo.png">
   	<div id="links">
   		<div id="infolink" class="linkbox" style="background-color: #c73788">COURSE INFO</div>
-  		<div id="schedulelink" class="linkbox" style="background-color: #d8262b">SCHEDULE</div>
-  		<div id="assignmentslink" class="linkbox" style="background-color: #ec8c2c">ASSIGNMENTS</div>
-  		<div id="lablink" class="linkbox" style="background-color: #fef203">LABS</div>
-  		<div id="stafflink" class="linkbox" style="background-color: #10aa58">STAFF</div>
-  		<div id="resourceslink" class="linkbox" style="background-color: #0faaa5">RESOURCES</div>
+  		<div id="schedulelink" class="linkbox" style="background-color: #d8262b">DOCUMENTS</div>
+  		<div id="assignmentslink" class="linkbox" style="background-color: #ec8c2c">SCHEDULES</div>
+  		<div id="lablink" class="linkbox" style="background-color: #fef203">ASSIGNMENTS</div>
+  		<div id="stafflink" class="linkbox" style="background-color: #10aa58">LABS</div>
+  		<div id="documentslink" class="linkbox" style="background-color: #0faaa5">STAFF</div>
   		<div id="faqlink" class="linkbox" style="background-color: #0067a9">F.A.Q</div>
   		<div class="linkbox" style="background-color: #acdcf4"><a href="piazza.com/brown/fall2018/csci1300/home">PIAZZA</a></div>
   		
@@ -35,6 +35,28 @@
   			</script>
 
   			<h1>INFO</h1>
+
+  			<div id="welcome">Welcome to CS130(0): User Interfaces and User Experience!<br> Collect $200 as you pass GO.</div>
+
+  			<div id="logistics">LOCATION: Martinos Auditorium (Granoff 110) | TIME: Tuesdays and Thursdays, 1pm - 2:20pm</div>
+
+  			<div id="intro">This course will cover concepts in human-computer interaction that focus on designing user interfaces. Topics include understanding when to use different interfaces, modeling and representing user interaction, principles of user experience design, eliciting requirements and feedback from users, methods for designing and prototyping interfaces, and user interface evaluation. Students interested in learning the process behind building a user interface and gaining hands-on experience designing a user interface should take this course. <br><br>
+
+			Both CS1300 and CS0130 will have the same lecture, labs, and readings, but some assignments will differ. CS1300 will have assignments with computer science prerequisites (involving more statistics, logic, programming). You may choose which one you want to take, but you won't be able to take the other one for credit in the future. CS1300 provides 1000-level CS credit, but CS0130 does not, so CS concentrators may prefer CS1300. Typically, a number of RISD students also take the course; RISD students should come to the first day of class to get information about enrolling. Any student in CS0130 may substitute their assignment with the corresponding CS1300 assignment for credit, but not vice versa. Note that due to both courses having the same lecture, all students will see everyone in both courses, and sometimes work with students in the other course number.
+			</div>
+  		</div>
+
+  		<div id="documents">
+
+  			<script>
+  				$("#documentslink").click(function() {
+    			$('html, body').animate({
+        			scrollTop: $("#documents").offset().top
+    			}, 1200);
+				});
+  			</script>
+
+  			<h1>DOCUMENTS</h1>
   		</div>
 
   		<div id="schedule">
@@ -89,19 +111,6 @@
   			</script>
 
   			<h1>STAFF</h1>
-  		</div>
-
-  		<div id="resources">
-
-  			<script>
-  				$("#resourceslink").click(function() {
-    			$('html, body').animate({
-        			scrollTop: $("#resources").offset().top
-    			}, 1200);
-				});
-  			</script>
-
-  			<h1>RESOURCES</h1>
   		</div>
 
 
