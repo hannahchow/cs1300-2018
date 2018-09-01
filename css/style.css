@@ -8,6 +8,17 @@ body {
     src: url('Copperplate Gothic Regular.otf');
 }
 
+@font-face {
+	font-family: futura;
+	src: url('FuturaTEE Regular.ttf');
+}
+
+@font-face {
+	font-family: kabel;
+	src: url('kabel.ttf');
+}
+
+
 #logo {
 	width: 40%;
 	height: auto; 
@@ -23,11 +34,20 @@ body {
 	border: 3px solid black;
 	margin-left: 5px;
 	margin-right: 5px;
-	font-family: coppergothic;
+	font-family: futura;
+	font-weight: bold;
 	font-size: 14px;
 	color: black;
 	text-align: center;
+	letter-spacing: 1px;
 	line-height: 30px;
+
+}
+
+.linkboxtext {
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: center;
 }
 
 
@@ -47,11 +67,37 @@ body {
 }
 
 .linkbox a:hover {
-	letter-spacing: 1.5px;
+	letter-spacing: 2px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
   	transition: all 0.2s ease-in-out; 
+}
+
+#content {
+	width: 70%;
+	display: flex;
+	flex-direction: vertical;
+	justify-content: center;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#faq .question {
+	font-family: futura;
+	font-size: 14px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: bold;
+	margin: 15px 0px 15px 15px;
+}
+
+#faq .answer {
+	font-family: futura;
+	font-size: 13px;
+	margin: 0px 0px 0px 30px;
+	line-height: 15px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -66,10 +112,26 @@ body {
     }
 }
 
+@media only screen and (max-width: 800px) {
+    .linkbox {
+        font-size: 9px;
+    }
+}
+
 @media only screen and (max-width: 700px) {
     .linkbox {
         display: none;
     }
+}
+
+h1 {
+	font-family: kabel;
+	color: white;
+	text-shadow: -3px 3px #000000;
+}
+
+#faq p {
+
 }
 
 
