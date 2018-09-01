@@ -102,7 +102,7 @@ body {
 
 #faq .question {
 	font-family: futura;
-	font-size: 14px;
+	font-size: 16px;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -111,9 +111,9 @@ body {
 
 #faq .answer {
 	font-family: futura;
-	font-size: 13px;
+	font-size: 14px;
 	margin: 0px 0px 0px 30px;
-	line-height: 15px;
+	line-height: 18px;
 }
 
 h1 {
