@@ -41,7 +41,10 @@ body {
 	text-align: center;
 	letter-spacing: 1px;
 	line-height: 30px;
-
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
 }
 
 .linkboxtext {
@@ -74,6 +77,15 @@ body {
   	transition: all 0.2s ease-in-out; 
 }
 
+.linkbox:hover {
+	cursor: pointer;
+	letter-spacing: 2px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
 #content {
 	width: 70%;
 	display: flex;
@@ -82,6 +94,10 @@ body {
 	display: block;
     margin-left: auto;
     margin-right: auto;
+}
+#faq, #classinfo, #schedule, #assignments, #labs, #staff, #resources {
+	border-top: 4px solid black;
+	margin: 40px;
 }
 
 #faq .question {
@@ -98,6 +114,16 @@ body {
 	font-size: 13px;
 	margin: 0px 0px 0px 30px;
 	line-height: 15px;
+}
+
+h1 {
+	font-family: kabel;
+	font-size: 100;
+	color: white;
+	text-shadow: -3px 4px #000000;
+	margin-top: 40px;
+	margin-bottom: 40px;
+	letter-spacing: 4px;
 }
 
 @media only screen and (max-width: 1200px) {
@@ -122,21 +148,9 @@ body {
     .linkbox {
         display: none;
     }
+
+    h1 {
+    	text-align: center;
+    }
 }
 
-h1 {
-	font-family: kabel;
-	color: white;
-	text-shadow: -3px 3px #000000;
-}
-
-#faq p {
-
-}
-
-
-
-/*
-font-family: futura-pt, sans-serif;
-font-style: normal;
-font-weight: 400;*/
