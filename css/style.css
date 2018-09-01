@@ -87,8 +87,9 @@ body {
   	transition: all 0.2s ease-in-out; 
 }
 
-#content {
-	width: 70%;
+
+.content {
+	width: 60%;
 	display: flex;
 	flex-direction: vertical;
 	justify-content: center;
@@ -96,15 +97,13 @@ body {
     margin-left: auto;
     margin-right: auto;
 }
-#faq, #schedule, #assignments, #labs, #staff, #documents {
-	border-top: 4px solid black;
-	margin: 40px;
-}
 
-#classinfo {
+	
+
+/*#classinfo {
 	border-top: 4px solid black;
 	margin: 20px 40px 40px 40px;
-}
+}*/
 
 #faq .question {
 	font-family: futura;
@@ -158,6 +157,16 @@ h1 {
 	letter-spacing: 4px;
 }
 
+.header {
+	width: 65%;
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 4px solid black;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 1200px) {
     .linkbox {
         font-size: 12px;
@@ -183,6 +192,10 @@ h1 {
 
     h1 {
     	text-align: center;
+    }
+
+    .header {
+    	width: 100%;
     }
 }
 
