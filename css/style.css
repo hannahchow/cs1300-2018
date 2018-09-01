@@ -123,7 +123,7 @@ body {
 
 #welcome {
 	font-family: futura;
-	font-size: 24px;
+	font-size: 26px;
 	margin-top: 40px;
 	text-align: center;
 	font-weight: bold;
@@ -132,7 +132,7 @@ body {
 
 #logistics {
 	font-family: futura;
-	font-size: 14px;
+	font-size: 16px;
 	text-align: center;
 	letter-spacing: 1px;
 	font-weight: bold;
@@ -167,22 +167,97 @@ h1 {
 	margin-bottom: 40px;
 }
 
+#documentlinks {
+	display: flex;
+	flex-direction: horizontal;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.documentlink a{
+	margin: 0px 10px;
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+	letter-spacing: 1px;
+	font-size: 16px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+.documentlink a:hover {
+	letter-spacing: 2px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+#assignments {
+	display: flex;
+	justify-content: center;
+}
+
+#assignmentstable {
+	width: 100%;
+}
+
+th {
+	font-size: 16px;
+	text-transform: uppercase;
+	padding: 10px;
+	letter-spacing: 1px;
+}
+
+td {
+	padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.date {
+	text-align: center;
+	font-size: 14px;
+}
+
+.assignmentname {
+	font-size: 14px;
+}
+
 @media only screen and (max-width: 1200px) {
     .linkbox {
         font-size: 12px;
     }
+
+    #documentlinks {
+    	flex-direction: column;
+    	justify-content: center;
+    }
+    .documentlink {
+    	margin-top: 10px;
+    	margin-bottom: 10px;
+    	text-align: center;
+    }
+
 }
 
 @media only screen and (max-width: 1000px) {
     .linkbox {
         font-size: 10px;
     }
+   
 }
 
 @media only screen and (max-width: 800px) {
     .linkbox {
         font-size: 9px;
     }
+    
 }
 
 @media only screen and (max-width: 700px) {

@@ -15,28 +15,30 @@
   	<img id="logo" src="logo.png">
   	<div id="links">
   		<div id="infolink" class="linkbox" style="background-color: #c73788">COURSE INFO</div>
-  		<div id="schedulelink" class="linkbox" style="background-color: #d8262b">DOCUMENTS</div>
-  		<div id="assignmentslink" class="linkbox" style="background-color: #ec8c2c">SCHEDULES</div>
-  		<div id="lablink" class="linkbox" style="background-color: #fef203">ASSIGNMENTS</div>
-  		<div id="stafflink" class="linkbox" style="background-color: #10aa58">LABS</div>
-  		<div id="documentslink" class="linkbox" style="background-color: #0faaa5">STAFF</div>
+  		<div id="documentslink" class="linkbox" style="background-color: #d8262b">DOCUMENTS</div>
+  		<div id="schedulelink" class="linkbox" style="background-color: #ec8c2c">SCHEDULE</div>
+  		<div id="assignmentslink" class="linkbox" style="background-color: #fef203">ASSIGNMENTS</div>
+  		<div id="lablink" class="linkbox" style="background-color: #10aa58">LABS</div>
+  		<div id="stafflink" class="linkbox" style="background-color: #0faaa5">STAFF</div>
   		<div id="faqlink" class="linkbox" style="background-color: #0067a9">F.A.Q</div>
   		<div class="linkbox" style="background-color: #acdcf4"><a href="piazza.com/brown/fall2018/csci1300/home">PIAZZA</a></div>
   		
   	</div>
   
 
-  	<div class="header"><h1>INFO</h1></div>
+  	<div id="infoheader" class="header"><h1>INFO</h1></div>
+
+  		<script>
+  			$("#infolink").click(function() {
+    		$('html, body').animate({
+        		scrollTop: $("#infoheader").offset().top
+    		}, 1200);
+			});
+  		</script>
   	<div class="content">
   		<div id="classinfo">
 
-  			<script>
-  				$("#infolink").click(function() {
-    			$('html, body').animate({
-        			scrollTop: $("#classinfo").offset().top
-    			}, 1200);
-				});
-  			</script>
+  			
 
   			<div id="welcome">Welcome to CS130(0): User Interfaces and User Experience!<br> Collect $200 as you pass GO.</div>
 
@@ -49,77 +51,90 @@
   		</div>
   	</div>
 
-  	<div class="header"><h1>DOCUMENTS</h1></div>
-  	<div class="content">
-  		<div id="documents">
-
+  	<div id="documentsheader" class="header"><h1>DOCUMENTS</h1></div>
   			<script>
   				$("#documentslink").click(function() {
     			$('html, body').animate({
-        			scrollTop: $("#documents").offset().top
+        			scrollTop: $("#documentsheader").offset().top
     			}, 1200);
 				});
   			</script>
+  	<div class="content">
+  		<div id="documents">
 
-  			<div class="documentlink"><a href="coursedocuments/CS1300LatePolicy.pdf">Late Policy</a></div>
-  			<div class="documentlink"><a href="#">Grading Policy</a></div>
-  			<div class="documentlink"><a href="coursedocuments/CS1300CollaborationPolicy.pdf">Collaboration Policy</a></div>
-  			<div class="documentlink"><a href="coursedocuments/CS1300SoftwareGuide.pdf">Software Guide</a></div>
+  			<div id="documentlinks">
+  				<div class="documentlink"><a href="coursedocuments/CS1300LatePolicy.pdf">Late Policy</a></div>
+  				<div class="documentlink"><a href="#">Grading Policy</a></div>
+  				<div class="documentlink"><a href="coursedocuments/CS1300CollaborationPolicy.pdf">Collaboration Policy</a></div>
+  				<div class="documentlink"><a href="coursedocuments/CS1300SoftwareGuide.pdf">Software Guide</a></div>
+  			</div>
+  			
 
 
   			
   		</div>
   	</div>
 
-	<div class="header"><h1>SCHEDULE</h1></div>
+	<div id="scheduleheader" class="header"><h1>SCHEDULE</h1></div>
+			<script>
+  				$("#schedulelink").click(function() {
+    			$('html, body').animate({
+        			scrollTop: $("#scheduleheader").offset().top
+    			}, 1200);
+				});
+  			</script>
   	<div class="content">
   		<div id="schedule">
 
-  			<script>
-  				$("#schedulelink").click(function() {
-    			$('html, body').animate({
-        			scrollTop: $("#schedule").offset().top
-    			}, 1200);
-				});
-  			</script>
+  			
   		</div>
   	</div>
 
-	<div class="header"><h1>ASSIGNMENTS</h1></div>
-  	<div class="content">
-  		<div id="assignments">
-
-  			<script>
+	<div id="assignmentsheader" class="header"><h1>ASSIGNMENTS</h1></div>
+			<script>
   				$("#assignmentslink").click(function() {
     			$('html, body').animate({
-        			scrollTop: $("#assignments").offset().top
+        			scrollTop: $("#assignmentsheader").offset().top
     			}, 1200);
 				});
   			</script>
 
+  		
+  	<div class="content">
+  		<div id="assignments">
+			<table id="assignmentstable">
+                        <tr><th>Name</th><th>Out</th><th>Due</th></tr>
+                        <tr><td class="assignmentname">Everyday UI</td><td class="date">09/06</td><td class="date">09/20</td></tr>
+						<tr><td class="assignmentname">Personas &amp; Storyboarding</td><td class="date">09/20</td><td class="date">10/04</td></tr>
+						<tr><td class="assignmentname">Responsive Redesign</td><td class="date">10/04</td><td class="date">10/18</td></tr>
+						<tr><td class="assignmentname">A/B Testing &amp; User Testing</td><td class="date">10/18</td><td class="date">11/01</td></tr>
+						<tr><td class="assignmentname">Iterative Design, Evaluation, &amp; Eyetracking</td><td class="date">11/01</td><td class="date">11/22</td></tr>
+                        <tr><td class="assignmentname">Development &amp; Input</td><td class="date">11/20</td><td class="date">12/06</td></tr>
+                        <tr><td class="assignmentname">Final Portfolio or Project</td><td class="date">12/06</td><td class="date">12/20</td></tr>
+            </table>
   		</div>
+
+  		<p style="font-size: 14px;">* Assignments are due on Thursdays at 12:00 p.m. (noon) on Gradescope, two weeks after they are released.</p>
   	</div>
 
   	
-  	<div class="header"><h1>LABS</h1></div>
-  	<div class="content">
-  		<div id="labs">
-
+  	<div id="labsheader" class="header"><h1>LABS</h1></div>
   			<script>
   				$("#lablink").click(function() {
     			$('html, body').animate({
-        			scrollTop: $("#labs").offset().top
+        			scrollTop: $("#labsheader").offset().top
     			}, 1200);
 				});
   			</script>
 
+  	<div class="content">
+  		<div id="labs">
+
+
   		</div>
   	</div>
 
-  	<div class="header"><h1>STAFF</h1></div>
-  	<div class="content">
-  		<div id="staff">
-
+  	<div id="staffheader" class="header"><h1>STAFF</h1></div>
   			<script>
   				$("#stafflink").click(function() {
     			$('html, body').animate({
@@ -127,22 +142,25 @@
     			}, 1200);
 				});
   			</script>
+  	<div class="content">
+  		<div id="staff">
+
+  			
   		</div>
   	</div>
 
 
-  	<div class="header"><h1>F.A.Q</h1></div>
-  	<div class="content">
-  		<div id="faq">
+  	<div id="faqheader" class="header"><h1>F.A.Q</h1></div>
 
   			<script>
   				$("#faqlink").click(function() {
     			$('html, body').animate({
-        			scrollTop: $("#faq").offset().top
+        			scrollTop: $("#faqheader").offset().top
     			}, 1200);
 				});
   			</script>
-
+  	<div class="content">
+  		<div id="faq">
 
   			<div class="question">How can I register for the course?</div>
 
