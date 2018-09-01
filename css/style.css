@@ -121,6 +121,25 @@ body {
 	line-height: 18px;
 }
 
+#faq .answer a {
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+#faq .answer a:hover {
+	color: #44663c;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+
+
 #welcome {
 	font-family: futura;
 	font-size: 26px;
@@ -156,6 +175,18 @@ h1 {
 	margin-bottom: 40px;
 	letter-spacing: 4px;
 	text-align: center;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+h1:hover {
+	text-shadow: -6px 6px #000000;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
 }
 
 .header {
@@ -190,6 +221,7 @@ h1 {
 
 .documentlink a:hover {
 	letter-spacing: 2px;
+	color: #44663c;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -201,8 +233,15 @@ h1 {
 	justify-content: center;
 }
 
-#assignmentstable, #scheduletable {
+#assignmentstable {
 	width: 80%;
+	justify-content: center;
+}
+
+#schedulewrapper {
+	width: 80%;
+	display: flex;
+	flex-direction: column;
 	justify-content: center;
 }
 
