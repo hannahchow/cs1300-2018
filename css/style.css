@@ -274,6 +274,19 @@ table, th, td {
 	text-align: center;
 }
 
+#emails {
+	text-align: center;
+}
+
+#email {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+#emaildescription {
+	font-size: 12px;
+}
+
 #tawrapper, #htawrapper {
 	width: 100%;
 	display: flex;
