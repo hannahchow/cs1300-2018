@@ -192,6 +192,16 @@
   			</script>
   	<div class="content">
   		<div id="staff">
+  			
+  				<div id="jeffbarwrapper">
+    				<div class="progress-bar-1" id="jeffbar1"></div>
+    				<img class="railroadimg" src="railroad.png"/>
+    				<div id="profname" class="railroadname">PROFESSOR RAILROAD</div>
+    				<div class="progress-bar-2" id="jeffbar2"></div>
+    				
+    			</div>
+
+	
   			<div id="professorwrapper">
   				<div class="tabox">
   					<img src="placeholder.png"/>
@@ -200,6 +210,13 @@
   					<div class="bio">Hours: Tuesdays 2:30 - 4:00 p.m. <br> Office: CIT 407</div>
   				</div>
   			</div>
+
+  				<div id="htabarwrapper">
+  					<div class="progress-bar-1" id="htabar1"></div>
+  					<img class="railroadimg" src="railroad.png"/>
+  					<div id="htaname" class="railroadname">HTA RAILROAD</div>
+  					<div class="progress-bar-2" id="htabar2"></div>
+  				</div>
 
   			<div id="htawrapper">
   				<div class="tabox">
@@ -216,6 +233,13 @@
   				</div>
 
   			</div>
+
+  				<div id="utabarwrapper">
+  					<div class="progress-bar-1" id="utabar1"></div>
+  					<img class="railroadimg" src="railroad.png"/>
+  					<div id="utaname" class="railroadname">UTA RAILROAD</div>
+  					<div class="progress-bar-2" id="utabar2"></div>
+  				</div>
 
   			<div id="tawrapper">
   				<div class="tabox">
@@ -326,6 +350,30 @@
   	
   		</div>
   	</div>
+
+<script>
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+function myFunction() {
+  var winScroll = document.documentElement.scrollTop;
+  var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
+  var scrolled = (winScroll / height) * 100;
+  var scrolledopposite = 100 - ((winScroll / height) * 100);
+  document.getElementById("jeffbar1").style.width = scrolled + "%";
+  document.getElementById("jeffbar2").style.width = scrolledopposite + "%";
+  var scrolled2 = (winScroll / height) * 100  - 20;
+  var scrolledopposite2 = 100 - ((winScroll / height) * 100  - 20);
+  document.getElementById("htabar1").style.width = scrolled2 + "%";
+  document.getElementById("htabar2").style.width = scrolledopposite2 + "%";
+  var scrolled3 = (winScroll / height) * 100  - 40;
+   var scrolledopposite3 = 100 - ((winScroll / height) * 100  - 40);
+  document.getElementById("utabar1").style.width = scrolled3 + "%";
+  document.getElementById("utabar2").style.width = scrolledopposite3 + "%";
+}
+</script>
+
+
 
 
   	</div>
