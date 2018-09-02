@@ -281,10 +281,12 @@ table, th, td {
 #email {
 	font-weight: bold;
 	font-size: 16px;
+	letter-spacing: 1px;
 }
 
 #emaildescription {
 	font-size: 12px;
+	letter-spacing: 1px;
 }
 
 #tawrapper, #htawrapper {
