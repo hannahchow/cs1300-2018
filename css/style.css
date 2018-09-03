@@ -212,7 +212,7 @@ h1:hover {
 	color: black;
 	font-weight: bold;
 	letter-spacing: 1px;
-	font-size: 16px;
+	font-size: 14px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -273,6 +273,7 @@ table, th, td {
 	margin: 15px;
 	text-align: center;
 }
+
 
 #emails {
 	text-align: center;
@@ -379,6 +380,10 @@ table, th, td {
 	height: 30px;
 }
 
+#calendarwrapper {
+	margin-bottom: 40px;
+}
+
 @media only screen and (max-width: 1200px) {
     .linkbox {
         font-size: 12px;
@@ -399,6 +404,10 @@ table, th, td {
 @media only screen and (max-width: 1000px) {
     .linkbox {
         font-size: 10px;
+    }
+
+    #calendar {
+    	height: 0px;
     }
    
 }
