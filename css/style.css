@@ -332,6 +332,48 @@ table, th, td {
 	width: 220px;
 }
 
+.assignment-wrapper {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.assignment-card {
+	height: 170px;
+	width: 250px;
+	background-color: #ffffff;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border: 2px solid #000;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
+.assignment-title {
+	width: 90%;
+	height: 50px;
+	margin: auto;
+    margin-top: 10px;
+    background-color: #430472;
+    border: 3px solid #000;
+}
+
+.title-text {
+	font-size: 22px;
+    font-family: coppergothic;
+    color: #000;
+    margin-top: 5px;
+    text-align: center;
+}
+
+.assignment-details {
+	width: 70%;
+	margin: auto;
+	margin-top: 10px;
+	font-family: coppergothic;
+	font-size: 18px;
+}
 
 #jeffbarwrapper, #htabarwrapper, #utabarwrapper {
 	display: flex;
