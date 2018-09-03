@@ -407,7 +407,7 @@ table, th, td {
     }
 
     #calendar {
-    	height: 0px;
+    	height: 400px;
     }
    
 }
@@ -415,6 +415,9 @@ table, th, td {
 @media only screen and (max-width: 800px) {
     .linkbox {
         font-size: 9px;
+    }
+    #calendar {
+    	height: 300px;
     }
     
 }
@@ -426,6 +429,10 @@ table, th, td {
 
     .header {
     	width: 100%;
+    }
+
+     #calendar {
+    	height: 200px;
     }
 }
 
