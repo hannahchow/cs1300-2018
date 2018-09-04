@@ -428,12 +428,13 @@ table, th, td {
 
 #apply {
 	animation-name: example;
-	font-size: 16px;
+	font-size: 15px;
 	font-weight: bold;
     animation-duration: 3s;
     animation-iteration-count: infinite;
     text-align: center;
     text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 #apply a {
