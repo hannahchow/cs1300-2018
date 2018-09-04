@@ -426,6 +426,40 @@ table, th, td {
 	margin-bottom: 40px;
 }
 
+#apply {
+	animation-name: example;
+	font-size: 16px;
+	font-weight: bold;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+#apply a {
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+#apply a:hover {
+	color: #44663c;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out; 
+}
+
+@keyframes example {
+    0%  {color:black;}
+    50% {color: red;}
+    100% {color:black;}
+}
+
+
 @media only screen and (max-width: 1200px) {
     .linkbox {
         font-size: 12px;
