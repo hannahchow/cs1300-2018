@@ -71,7 +71,7 @@ body {
 }
 
 .linkbox a:hover {
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -80,7 +80,7 @@ body {
 
 .linkbox:hover {
 	cursor: pointer;
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
@@ -237,7 +237,7 @@ h1:hover {
 }
 
 .documentlink a:hover {
-	letter-spacing: 2px;
+	letter-spacing: 1.5px;
 	color: #44663c;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
