@@ -224,12 +224,12 @@ h1:hover {
 }
 
 .documentlink a{
-	margin: 0px 10px;
+	margin: 0px 7px;
 	text-transform: uppercase;
 	color: black;
 	font-weight: bold;
 	letter-spacing: 1px;
-	font-size: 14px;
+	font-size: 13px;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
   	-o-transition: all 0.2s ease-in-out;
