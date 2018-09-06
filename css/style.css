@@ -251,7 +251,7 @@ h1:hover {
 }
 
 #assignmentstable, #labstable {
-	width: 80%;
+	width: 100%;
 	justify-content: center;
 }
 
