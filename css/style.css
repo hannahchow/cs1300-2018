@@ -166,6 +166,23 @@ body {
 	line-height: 18px;
 }
 
+#intro a {
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+
+#intro a:hover {
+	letter-spacing: 1px;
+	color: #44663c;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+
 h1 {
 	font-family: kabel;
 	font-size: 35px;
