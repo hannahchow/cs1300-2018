@@ -4,6 +4,7 @@ body {
 	font-family: futura;
 }
 
+
 @font-face {
     font-family: coppergothic;
     src: url('Copperplate Gothic Regular.otf');
@@ -248,11 +249,30 @@ h1:hover {
 #assignments, #schedule, #labs {
 	display: flex;
 	justify-content: center;
+
 }
+
 
 #assignmentstable, #labstable {
 	width: 100%;
 	justify-content: center;
+}
+
+table a {
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+
+table a:hover {
+	letter-spacing: 1px;
+	color: #44663c;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
 }
 
 #schedulewrapper {
@@ -387,6 +407,7 @@ table, th, td {
 
 #handout {
 	font-weight: bold;
+
 }
 
 
@@ -410,6 +431,23 @@ table, th, td {
 	text-transform: uppercase;
 	display: flex;
 	flex-direction: column;
+}
+
+.assignment-details a{
+	color: black;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
+}
+
+.assignment-details a:hover {
+	letter-spacing: 1.5px;
+	color: #44663c;
+	-webkit-transition: all 0.2s ease-in-out;
+  	-moz-transition: all 0.2s ease-in-out;
+  	-o-transition: all 0.2s ease-in-out;
+  	transition: all 0.2s ease-in-out;
 }
 
 .columnwrapper {
