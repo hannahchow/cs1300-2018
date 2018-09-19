@@ -267,7 +267,6 @@ table a {
 }
 
 table a:hover {
-	letter-spacing: 1px;
 	color: #44663c;
 	-webkit-transition: all 0.2s ease-in-out;
   	-moz-transition: all 0.2s ease-in-out;
