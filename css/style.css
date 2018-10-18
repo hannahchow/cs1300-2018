@@ -414,6 +414,14 @@ table, th, td {
 	margin: 4px;
 }
 
+.assignment-border-2-handouts {
+	width: 190px;
+	height: 2000px;
+	border: 1px solid black;
+	justify-content: center;
+	margin: 4px;
+}
+
 
 #handout {
 	font-weight: bold;
