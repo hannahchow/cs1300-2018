@@ -386,6 +386,17 @@ table, th, td {
 	margin-top: 20px;
 }
 
+.assignment-card-2-handouts {
+	height: 210px;
+	width: 200px;
+	background-color: #ffffff;
+	box-shadow: 6px 6px rgba(32, 58, 26, 0.1);
+	border: 2px solid #000;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 20px;
+}
+
 .assignment-title {
 	width: 86%;
 	height: 38px;
