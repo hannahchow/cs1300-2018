@@ -298,7 +298,7 @@ table, th, td {
     border-collapse: collapse;
 }
 
-.date, .time, .lab, .sign-up, .handout, .slides {
+.date, .time, .location, .lab, .sign-up, .handout, .slides {
 	text-align: center;
 }
 
