@@ -279,6 +279,10 @@ table a:hover {
 	justify-content: center;
 }
 
+#scheduletable, #guestspeakertable {
+	width: 100%;
+}
+
 th {
 	font-size: 16px;
 	text-transform: uppercase;
