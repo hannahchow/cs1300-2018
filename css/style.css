@@ -251,10 +251,10 @@ h1:hover {
 }
 
 
-#assignmentstable, #labstable {
+/* #assignmentstable, #labstable {
 	width: 100%;
 	justify-content: center;
-}
+} */
 
 table a {
 	color: black;
